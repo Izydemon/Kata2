@@ -12,10 +12,6 @@ public class Histogram {
             counts.put(value,counts.getOrDefault(value, 0)+1);
     }
     
-    public void calculate(){
-        
-    }
-
     public Set<Integer> getValues() {
         return counts.keySet();
     }
